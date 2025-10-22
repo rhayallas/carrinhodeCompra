@@ -1,5 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 head{
     background-color: aqua;
     text-align: center;
     padding: 10px;
+    margin-bottom: 10px;
+}
+main{
+    display: flex;
+}
+
+.produtos,.carrinho {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+    width: 40%;
+    border-radius: 10p;
+    padding: 20px;
 }
